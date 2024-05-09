@@ -15,10 +15,15 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 import math
+
 num1=int(input())
+
 num2=int(input())
+
 def gcd():
+
     g=math.gcd(num1, num2)
+
     print("GCD of two numbers is:",g)
     
 
