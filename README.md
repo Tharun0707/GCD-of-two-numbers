@@ -14,18 +14,12 @@ To write a program to find the GCD of two numbers using function.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
 ## Program:
-import math
-
-num1=int(input())
-
-num2=int(input())
-
 def gcd():
-
-    g=math.gcd(num1, num2)
-
-    print("GCD of two numbers is:",g)
-    
+ a=int(input())
+ b=int(input())
+ while b:
+   a,b=b,a%b
+ print("GCD of two numbers is:",a)
 
 ## Output:
 ![image](https://github.com/Tharun0707/GCD-of-two-numbers/assets/145548496/734e2118-de1c-48b7-b94d-e28e7bd64abe)
